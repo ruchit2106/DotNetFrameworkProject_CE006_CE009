@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Online_Voting_System.Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="Online_Voting_System.Register" %>
 
 <!DOCTYPE html>
 
@@ -51,43 +51,47 @@
                         <asp:Label ID="passwordid" runat="server" Text="Password"></asp:Label>
                     </td>
                     <td class="auto-style2">
-                        <input id="passwordtxt" type="password" /></td>
+                        <asp:TextBox ID="passwordtxt" runat="server" TextMode="Password"></asp:TextBox>
+                    </td>
                 </tr>
                  <tr>
                     <td class="auto-style4">
                         <asp:Label ID="dobid" runat="server" Text="DOB"></asp:Label>
                     </td>
                     <td>
-                        <input id="input_dobid" type="date" /></td>
+                        <asp:TextBox ID="dobtxt" runat="server" TextMode="Date"></asp:TextBox>
+                     </td>
                 </tr>
                  <tr>
                     <td class="auto-style4">
                         <asp:Label ID="phoneid" runat="server" Text="Phone no."></asp:Label>
                     </td>
                     <td>
-                        <input type="number" id="input_phoneid" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required="required"/></td>
+                        <asp:TextBox ID="phonenotxt" runat="server" TextMode="Phone"></asp:TextBox>
+                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style4">
                         <asp:Label ID="addressid" runat="server" Text="Address"></asp:Label>
                     </td>
                     <td>
-                        <textarea id="input_addressid" cols="20" name="S1" rows="2" required="required"></textarea></td>
+                        <asp:TextBox ID="addresstxt" runat="server" TextMode="MultiLine"></asp:TextBox>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style4">
                         <asp:Label ID="genderid" runat="server" Text="Gender"></asp:Label>
                     </td>
                     <td>
-                        <asp:RadioButtonList ID="RadioButtonList1" runat="server">
-                            <asp:ListItem Enabled="False">Male</asp:ListItem>
-                            <asp:ListItem Enabled="False">Female</asp:ListItem>
+                        <asp:RadioButtonList ID="gendertxt" runat="server">
+                            <asp:ListItem Selected="True" Value="M">Male</asp:ListItem>
+                            <asp:ListItem Value="F">Female</asp:ListItem>
                         </asp:RadioButtonList>
                         </td>
                 </tr>
                 <tr>
                     <td class="auto-style4">
-                        <asp:Button ID="Confirm_Register" runat="server" OnClick="Confirm_Register_Click" Text="Submit" />
+                        <asp:Button ID="confirm_register" runat="server" OnClick="register_clicked" Text="Submit" />
                     </td>
                     <td><asp:Button ID="login_link" runat="server" Text="Login" Width="74px" />
                     </td>

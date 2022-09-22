@@ -69,6 +69,15 @@ namespace Online_Voting_System
         protected global::System.Web.UI.WebControls.Label passwordid;
 
         /// <summary>
+        /// passwordtxt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox passwordtxt;
+
+        /// <summary>
         /// dobid control.
         /// </summary>
         /// <remarks>
@@ -76,6 +85,15 @@ namespace Online_Voting_System
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label dobid;
+
+        /// <summary>
+        /// dobtxt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox dobtxt;
 
         /// <summary>
         /// phoneid control.
@@ -87,6 +105,15 @@ namespace Online_Voting_System
         protected global::System.Web.UI.WebControls.Label phoneid;
 
         /// <summary>
+        /// phonenotxt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox phonenotxt;
+
+        /// <summary>
         /// addressid control.
         /// </summary>
         /// <remarks>
@@ -94,6 +121,15 @@ namespace Online_Voting_System
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label addressid;
+
+        /// <summary>
+        /// addresstxt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox addresstxt;
 
         /// <summary>
         /// genderid control.
@@ -105,13 +141,13 @@ namespace Online_Voting_System
         protected global::System.Web.UI.WebControls.Label genderid;
 
         /// <summary>
-        /// RadioButtonList1 control.
+        /// gendertxt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
+        protected global::System.Web.UI.WebControls.RadioButtonList gendertxt;
 
         /// <summary>
         /// Confirm_Register control.
