@@ -10,7 +10,7 @@
             width: 100%;
         }
         .auto-style2 {
-            width: 323px;
+            width: 289px;
         }
     </style>
 </head>
