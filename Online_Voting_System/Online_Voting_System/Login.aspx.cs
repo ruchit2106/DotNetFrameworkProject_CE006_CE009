@@ -13,7 +13,7 @@ namespace Online_Voting_System
     public partial class Login : System.Web.UI.Page
     {
         //SqlConnection con = new SqlConnection();
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\admin\source\repos\Online_Voting_System\Online_Voting_System\App_Data\OnlineVotingSystem.mdf;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Ruchit\source\repos\Online_Voting_System\Online_Voting_System\App_Data\OnlineVotingSystem.mdf;Integrated Security=True");
 
         protected void Page_Load(object sender, EventArgs e)
         {
