@@ -42,13 +42,22 @@ namespace Online_Voting_System
         protected global::System.Web.UI.WebControls.Label emailid;
 
         /// <summary>
-        /// password control.
+        /// emaild_txt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label password;
+        protected global::System.Web.UI.WebControls.TextBox emaild_txt;
+
+        /// <summary>
+        /// password_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox password_txt;
 
         /// <summary>
         /// Submitbtn control.
@@ -67,5 +76,14 @@ namespace Online_Voting_System
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink Registerlink;
+
+        /// <summary>
+        /// wrong_ans control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label wrong_ans;
     }
 }

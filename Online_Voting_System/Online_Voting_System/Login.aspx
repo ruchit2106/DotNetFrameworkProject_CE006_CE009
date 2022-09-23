@@ -29,14 +29,15 @@
                         <asp:Label ID="emailid" runat="server" Text="Email ID"></asp:Label>
                     </td>
                     <td>
-                        <input id="input_emailid" type="text" required="required" /></td>
+                        <asp:TextBox ID="emaild_txt" runat="server"></asp:TextBox>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style2">
-                        <asp:Label ID="password" runat="server" Text="Password"></asp:Label>
-                    </td>
+                        Password</td>
                     <td>
-                        <input id="Input_Password" type="password" required="required" /></td>
+                        <asp:TextBox ID="password_txt" runat="server" TextMode="Password"></asp:TextBox>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style2">
@@ -44,6 +45,14 @@
                     </td>
                     <td>
                         <asp:HyperLink ID="Registerlink" runat="server" NavigateUrl="~/Register.aspx">Register</asp:HyperLink>
+                        <table class="auto-style1">
+                            <tr>
+                                <td>
+                                    <asp:Label ID="wrong_ans" runat="server"></asp:Label>
+                                </td>
+                                <td>&nbsp;</td>
+                            </tr>
+                        </table>
                     </td>
                 </tr>
             </table>

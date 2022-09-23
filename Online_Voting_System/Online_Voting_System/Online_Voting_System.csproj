@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin_panel.aspx" />
     <Content Include="App_Data\OnlineVotingSystem.mdf" />
     <Content Include="App_Data\OnlineVotingSystem_log.ldf">
       <DependentUpon>OnlineVotingSystem.mdf</DependentUpon>
@@ -76,6 +77,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin_panel.aspx.cs">
+      <DependentUpon>Admin_panel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_panel.aspx.designer.cs">
+      <DependentUpon>Admin_panel.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
