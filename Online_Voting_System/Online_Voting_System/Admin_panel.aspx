@@ -9,23 +9,31 @@
         .auto-style1 {
             width: 100%;
         }
+        .auto-style2 {
+            width: 240px;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <table class="auto-style1">
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
+                <td class="auto-style2">Admin Panel</td>
                 <td>
-                    <asp:Button ID="approveduser" runat="server" OnClick="approveduser_Click" Text="Add Voter" />
-                </td>
+                    <asp:HyperLink ID="home_url" runat="server" NavigateUrl="~/Login.aspx">Home</asp:HyperLink>
+&nbsp;&nbsp;
+                    <asp:Button ID="Approved_user" runat="server" OnClick="Approved_user_Click" Text="Approve User" />
+&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="add_candidate" runat="server" OnClick="add_candidate_Click" Text="Add Candidate" />
+&nbsp;&nbsp;&nbsp; </td>
+            </tr>
+            <tr>
+                <td class="auto-style2">
+                    &nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
+                <td class="auto-style2">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
         </table>

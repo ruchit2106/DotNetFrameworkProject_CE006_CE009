@@ -13,11 +13,9 @@ namespace Online_Voting_System
     public partial class Login : System.Web.UI.Page
     {
         //SqlConnection con = new SqlConnection();
-<<<<<<< HEAD
+
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\admin\Documents\GitHub\Online_Voting_System\Online_Voting_System\Online_Voting_System\App_Data\OnlineVotingSystem.mdf;Integrated Security=True");
-=======
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Ruchit\source\repos\Online_Voting_System\Online_Voting_System\App_Data\OnlineVotingSystem.mdf;Integrated Security=True");
->>>>>>> 63dc37e3c165ce242b92a23e475c350b5cfa40d6
+
 
         protected void Page_Load(object sender, EventArgs e)
         {
