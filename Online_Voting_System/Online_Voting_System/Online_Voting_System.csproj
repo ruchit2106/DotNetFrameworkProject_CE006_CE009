@@ -73,11 +73,13 @@
     <Content Include="App_Data\OnlineVotingSystem_log.ldf">
       <DependentUpon>OnlineVotingSystem.mdf</DependentUpon>
     </Content>
+    <Content Include="check_voter.aspx" />
     <Content Include="Edit_Voter_Profile.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="voter_home.aspx" />
     <Content Include="Web.config" />
+    <Content Include="add_candidate.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin_panel.aspx.cs">
@@ -93,6 +95,13 @@
     </Compile>
     <Compile Include="Approved_user.aspx.designer.cs">
       <DependentUpon>Approved_user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="check_voter.aspx.cs">
+      <DependentUpon>check_voter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="check_voter.aspx.designer.cs">
+      <DependentUpon>check_voter.aspx</DependentUpon>
     </Compile>
     <Compile Include="Edit_Voter_Profile.aspx.cs">
       <DependentUpon>Edit_Voter_Profile.aspx</DependentUpon>
@@ -122,6 +131,13 @@
     </Compile>
     <Compile Include="voter_home.aspx.designer.cs">
       <DependentUpon>voter_home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="add_candidate.aspx.cs">
+      <DependentUpon>add_candidate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_candidate.aspx.designer.cs">
+      <DependentUpon>add_candidate.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
