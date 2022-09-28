@@ -14,14 +14,16 @@ namespace Online_Voting_System
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           print_email.Text = (string)Session["voter_email"];
-            Response.Write(Session["voter_id"]);
+            /* print_email.Text = (string)Session["voter_email"];
+              Response.Write(Session["voter_id"]);
+
+              Response.Write(Session["Email"]);
+              Response.Write(Session["Password"]);
+              Response.Write(Session["DOB"]);
+              Response.Write(Session["Phoneno"]);
+              Response.Write(Session["Address"]);
+            */
             Response.Write(Session["voter_name"]);
-            Response.Write(Session["Email"]);
-            Response.Write(Session["Password"]);
-            Response.Write(Session["DOB"]);
-            Response.Write(Session["Phoneno"]);
-            Response.Write(Session["Address"]);
         }
 
         protected void Edit_Profile_Click(object sender, EventArgs e)
@@ -37,7 +39,7 @@ namespace Online_Voting_System
 
         protected void assigned_vote_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("check_voter.aspx");
         }
     }
 }
