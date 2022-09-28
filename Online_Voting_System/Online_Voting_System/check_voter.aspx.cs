@@ -19,8 +19,8 @@ namespace Online_Voting_System
         //string password = Session["Password"].ToString();
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Write(Session["voter_id"]);
-            Response.Write(Session["Password"]);
+            //Response.Write(Session["voter_id"]);
+            //Response.Write(Session["Password"]);
             //Response.Write(voter);
         }
 
@@ -46,6 +46,7 @@ namespace Online_Voting_System
                             if (Session["voter_id"].ToString() == voterid_txt.Text)
                             {
                                 Response.Write("voter Exists");
+                                Response.Redirect("select_candidate.aspx");
                             }
 
                             else

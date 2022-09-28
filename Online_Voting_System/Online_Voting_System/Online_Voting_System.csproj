@@ -77,6 +77,7 @@
     <Content Include="Edit_Voter_Profile.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="select_candidate.aspx" />
     <Content Include="voter_home.aspx" />
     <Content Include="Web.config" />
     <Content Include="add_candidate.aspx" />
@@ -124,6 +125,13 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="select_candidate.aspx.cs">
+      <DependentUpon>select_candidate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="select_candidate.aspx.designer.cs">
+      <DependentUpon>select_candidate.aspx</DependentUpon>
     </Compile>
     <Compile Include="voter_home.aspx.cs">
       <DependentUpon>voter_home.aspx</DependentUpon>

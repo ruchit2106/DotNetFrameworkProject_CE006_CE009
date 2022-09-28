@@ -54,6 +54,7 @@ namespace Online_Voting_System
                             Session["voter_name"] = dt.Rows[0][4];
                             Session["Phoneno"] = dt.Rows[0][5];
                             Session["Address"] = dt.Rows[0][6];
+                            Session["HasCasted"] = dt.Rows[0][8];
 
                         }
                         dr.Close();
