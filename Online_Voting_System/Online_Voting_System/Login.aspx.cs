@@ -14,7 +14,7 @@ namespace Online_Voting_System
     {
         //SqlConnection con = new SqlConnection();
 
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\admin\Documents\GitHub\Online_Voting_System\Online_Voting_System\Online_Voting_System\App_Data\OnlineVotingSystem.mdf;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Ruchit\Documents\GitHub\Online_Voting_System\Online_Voting_System\Online_Voting_System\App_Data\OnlineVotingSystem.mdf;Integrated Security=True");
 
 
         protected void Page_Load(object sender, EventArgs e)
@@ -45,7 +45,7 @@ namespace Online_Voting_System
                         sad.Fill(dt);
                         SqlDataReader dr = cmd2.ExecuteReader();
                         if (dr.Read())
-                        {
+                        {  
                             
                             Session["voter_id"] = dt.Rows[0][0];
                             Session["Email"] = dt.Rows[0][1];
