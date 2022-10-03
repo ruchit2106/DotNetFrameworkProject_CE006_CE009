@@ -80,6 +80,11 @@ namespace Online_Voting_System
                 Response.Write(ex.Message);
             }
         }
+
+        protected void login_link_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("login.aspx");
+        }
     }
 }
     

@@ -23,7 +23,8 @@ namespace Online_Voting_System
               Response.Write(Session["Phoneno"]);
               Response.Write(Session["Address"]);
             */
-            Response.Write(Session["voter_name"]);
+            
+            print_email.Text = "Hey, "+Session["voter_name"].ToString();
         }
 
         protected void Edit_Profile_Click(object sender, EventArgs e)

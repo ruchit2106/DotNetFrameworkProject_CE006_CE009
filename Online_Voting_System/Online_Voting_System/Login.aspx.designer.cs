@@ -24,24 +24,6 @@ namespace Online_Voting_System
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Label1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
-
-        /// <summary>
-        /// emailid control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label emailid;
-
-        /// <summary>
         /// emaild_txt control.
         /// </summary>
         /// <remarks>
@@ -60,6 +42,15 @@ namespace Online_Voting_System
         protected global::System.Web.UI.WebControls.TextBox password_txt;
 
         /// <summary>
+        /// wrong_ans control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label wrong_ans;
+
+        /// <summary>
         /// Submitbtn control.
         /// </summary>
         /// <remarks>
@@ -76,14 +67,5 @@ namespace Online_Voting_System
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink Registerlink;
-
-        /// <summary>
-        /// wrong_ans control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label wrong_ans;
     }
 }

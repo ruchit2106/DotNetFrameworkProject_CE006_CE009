@@ -18,8 +18,10 @@ namespace Online_Voting_System
         {
             if(Page.IsPostBack == false)
             {
-                Response.Write(Session["HasCasted"]);
+               // Response.Write(Session["HasCasted"]);
             }
+
+            print_email.Text = "Hey, " + Session["voter_name"];
            
         }
 
@@ -110,25 +112,28 @@ namespace Online_Voting_System
 
                         else
                         {
-                            Response.Write("Incorrect Candidate Name Or Password");
+                           wrong_txt.Text =  "Incorrect Candidate Name Or Password";
                         }
                     }
 
                     else
                     {
-                        Response.Write("Already Voted");
+                       wrong_txt.Text =  "Already Voted";
                     }
 
-                    using (SqlCommand cmd2 = new SqlCommand(update_voter_status))
+                    if(Iscandidate == 1)
                     {
-                        cmd2.Parameters.AddWithValue("@HasCasted", 1);
-                        cmd2.Parameters.AddWithValue("@VoterId", Session["voter_id"]);
-                        cmd2.Connection = con;
-                        con.Open();
-                        cmd2.ExecuteNonQuery();
-                        con.Close();
-                       
-                        
+
+                        using (SqlCommand cmd2 = new SqlCommand(update_voter_status))
+                        {
+                            cmd2.Parameters.AddWithValue("@HasCasted", 1);
+                            cmd2.Parameters.AddWithValue("@VoterId", Session["voter_id"]);
+                            cmd2.Connection = con;
+                            con.Open();
+                            cmd2.ExecuteNonQuery();
+                            con.Close();
+
+                        }  
 
                     }
 
@@ -141,6 +146,13 @@ namespace Online_Voting_System
                 Response.Write(ex.Message);
             }
 
+        }
+
+      
+
+        protected void back_click(object sender, EventArgs e)
+        {
+            Response.Redirect("check_voter.aspx");
         }
     }
 }

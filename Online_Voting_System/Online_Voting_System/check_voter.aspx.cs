@@ -22,6 +22,7 @@ namespace Online_Voting_System
             //Response.Write(Session["voter_id"]);
             //Response.Write(Session["Password"]);
             //Response.Write(voter);
+            print_email.Text = "Hey, " + Session["voter_name"];
         }
 
         protected void verify_voter_Click(object sender, EventArgs e)
@@ -51,7 +52,7 @@ namespace Online_Voting_System
 
                             else
                             {
-                                Response.Write("Incorrect voterId or Password");
+                               wrong_txt.Text =  "Incorrect voterId or Password";
                             }
                            // Response.Write(Session["voter_id"]);
                            // Response.Write(Session["Password"]);
@@ -60,7 +61,7 @@ namespace Online_Voting_System
                               
                         else
                         {
-                            Response.Write("Incorrect VoterId or Password");
+                           wrong_txt.Text =  "Incorrect VoterId or Password";
                         }
                         
                     }
@@ -76,6 +77,11 @@ namespace Online_Voting_System
             {
                 Response.Write(ex.Message);
             }
+        }
+
+        protected void back_click(object sender, EventArgs e)
+        {
+            Response.Redirect("voter_home.aspx");
         }
     }
 }

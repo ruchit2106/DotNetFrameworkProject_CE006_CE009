@@ -38,5 +38,10 @@ namespace Online_Voting_System
                 }
             }
         }
+
+        protected void back_button_click(object sender, EventArgs e)
+        {
+            Response.Redirect("Admin_panel.aspx");
+        }
     }
 }

@@ -30,5 +30,15 @@ namespace Online_Voting_System
         {
             Response.Redirect("add_candidate.aspx");
         }
+
+        protected void add_result_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("generate_result.aspx");
+        }
+
+        protected void logout_click(object sender, EventArgs e)
+        {
+            Response.Redirect("Login.aspx");
+        }
     }
 }

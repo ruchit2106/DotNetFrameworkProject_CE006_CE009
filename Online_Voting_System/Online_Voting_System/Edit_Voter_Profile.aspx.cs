@@ -24,6 +24,7 @@ namespace Online_Voting_System
                 address_txt.Text = Session["Address"].ToString();
                 Name_txt.Text = Session["voter_name"].ToString();
                 //   Response.Write(Session["voter_id"]);
+                print_email.Text = "Hey, " + Session["voter_name"].ToString(); 
             }
             
 

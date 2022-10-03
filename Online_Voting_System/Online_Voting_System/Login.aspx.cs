@@ -124,6 +124,8 @@ namespace Online_Voting_System
                 Response.Write(ex.Message);
             }
         }
+
+       
     }
 }
 
