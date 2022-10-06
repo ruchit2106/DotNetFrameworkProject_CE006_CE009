@@ -106,7 +106,7 @@
                     <td class="auto-style4">
                         &nbsp;</td>
                     <td>
-                        <asp:RadioButtonList  ID="gendertxt" runat="server">
+                        <asp:RadioButtonList  ID="gendertxt" runat="server" RepeatDirection="Horizontal" Width="200px">
                             <asp:ListItem Selected="True" Value="M">Male</asp:ListItem>
                             <asp:ListItem Value="F">Female</asp:ListItem>
                         </asp:RadioButtonList>
@@ -116,8 +116,14 @@
                     <td class="auto-style4">
                         &nbsp;</td>
                     <td>
-                        <asp:Button class="btn btn-primary" ID="confirm_register" runat="server" OnClick="register_clicked" Text="Submit" />
-                        <asp:Button class="btn btn-primary" ID="login_link" runat="server" Text="Back" Width="74px" OnClick="login_link_Click" />
+                        <br />
+                        <asp:Label class="text-danger" ID="wrong_ans" runat="server"></asp:Label>
+                        <br />
+                        <asp:Label class="text-success" ID="right_ans" runat="server"></asp:Label>
+                        <br />
+                        <br />
+                        <asp:Button class="btn btn-primary" ID="confirm_register" runat="server" OnClick="register_clicked" Text="Submit" Width="103px" />
+                        <asp:Button class="btn btn-primary" ID="login_link" runat="server" Text="Back" Width="97px" OnClick="login_link_Click" />
                     </td>
                 </tr>
             </table></center>

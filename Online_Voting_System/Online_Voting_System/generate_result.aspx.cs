@@ -13,5 +13,10 @@ namespace Online_Voting_System
         {
 
         }
+
+        protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
+        {
+
+        }
     }
 }

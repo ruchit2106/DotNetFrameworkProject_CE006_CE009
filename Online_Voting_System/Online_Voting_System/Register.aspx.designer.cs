@@ -87,6 +87,24 @@ namespace Online_Voting_System
         protected global::System.Web.UI.WebControls.RadioButtonList gendertxt;
 
         /// <summary>
+        /// wrong_ans control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label wrong_ans;
+
+        /// <summary>
+        /// right_ans control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label right_ans;
+
+        /// <summary>
         /// confirm_register control.
         /// </summary>
         /// <remarks>
