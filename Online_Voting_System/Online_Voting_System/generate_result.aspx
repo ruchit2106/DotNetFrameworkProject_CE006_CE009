@@ -7,6 +7,7 @@
     <title></title>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     </head>
 <body>
     <form id="form1" runat="server">
@@ -22,6 +23,8 @@
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -30,6 +33,7 @@
     <style type="text/css">
         .auto-style1 {
            
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         }
 
@@ -40,12 +44,18 @@
         }
 =======
         }
+=======
+        }
+>>>>>>> Stashed changes
 
          .header{
             font-size:28px;
             color :  white;
             margin-right: 400px;
         }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
        #approved_user
        {

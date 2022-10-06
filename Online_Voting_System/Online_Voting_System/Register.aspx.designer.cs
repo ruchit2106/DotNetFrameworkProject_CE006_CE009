@@ -89,7 +89,11 @@ namespace Online_Voting_System
         /// <summary>
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         /// wrong_ans control.
+=======
+        /// login_link control.
+>>>>>>> Stashed changes
 =======
         /// login_link control.
 >>>>>>> Stashed changes
@@ -98,6 +102,7 @@ namespace Online_Voting_System
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         protected global::System.Web.UI.WebControls.Label wrong_ans;
 
@@ -121,11 +126,18 @@ namespace Online_Voting_System
         /// <summary>
         /// confirm_register control.
 >>>>>>> Stashed changes
+=======
+        protected global::System.Web.UI.WebControls.Button login_link;
+
+        /// <summary>
+        /// confirm_register control.
+>>>>>>> Stashed changes
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         protected global::System.Web.UI.WebControls.Button login_link;
 
@@ -136,6 +148,8 @@ namespace Online_Voting_System
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         protected global::System.Web.UI.WebControls.Button confirm_register;
