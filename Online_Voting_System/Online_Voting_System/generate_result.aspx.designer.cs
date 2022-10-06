@@ -73,7 +73,10 @@ namespace Online_Voting_System
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -89,6 +92,9 @@ namespace Online_Voting_System
         /// Button1 control.
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -102,7 +108,11 @@ namespace Online_Voting_System
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+=======
+        protected global::System.Web.UI.WebControls.Button Button1;
+>>>>>>> Stashed changes
 =======
         protected global::System.Web.UI.WebControls.Button Button1;
 >>>>>>> Stashed changes
