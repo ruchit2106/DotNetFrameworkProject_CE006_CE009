@@ -29,7 +29,7 @@
             color :  white;
             margin-top:2px;
             margin-bottom:2px;
-            margin-right: 400px;
+            margin-right: 1050px;
           
         }
 
@@ -96,8 +96,7 @@
                    </td>
                 <td>
 
-                    <asp:Button class="btn btn-primary" ID="Edit_Profile" runat="server"  Text="Edit Profile" />
-                   <asp:Button class="btn btn-primary" ID="assigned_vote" runat="server"   Text="Vote" />
+                   
 
                     <asp:Button class="btn btn-danger" ID="logout_button" runat="server"   Text="Logout" />
 

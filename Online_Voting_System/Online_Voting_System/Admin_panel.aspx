@@ -14,9 +14,7 @@
         .auto-style1 {
             
         }
-        .auto-style2 {
-           
-        }
+       
         .header{
             font-size:28px;
             color :  white;

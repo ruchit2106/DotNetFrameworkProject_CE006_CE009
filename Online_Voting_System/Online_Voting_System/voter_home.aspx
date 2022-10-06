@@ -12,19 +12,16 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <style type="text/css">
         .auto-style1 {
+
+            
             
         }
         .auto-style2 {
             
         }
-        .auto-style3 {
-            
-        }
-        .auto-style4 {
-           
-        }
         .auto-style5 {
            
+           padding-top:120px;
         }
 
          .header{
@@ -32,7 +29,7 @@
             color :  white;
             margin-top:2px;
             margin-bottom:2px;
-            margin-right: 400px;
+            margin-right: 1050px;
           
         }
 
@@ -50,6 +47,28 @@
        {
           
        }
+        .auto-style6 {
+            width: 330px;
+        }
+
+        img{
+            max-width:100%;
+            height:20%;
+        }
+
+        .col{
+            max-height:70%;
+        }
+
+        .card{
+
+             box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+             transition: 0.3s;
+        }
+
+        .card:hover {
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
     </style>
 </head>
 <body>
@@ -66,9 +85,8 @@
                 <td>
 
 
-                    <asp:Button class="btn btn-primary" ID="Edit_Profile" runat="server" OnClick="Edit_Profile_Click" Text="Edit Profile" />
-
-                   <asp:Button class="btn btn-primary" ID="assigned_vote" runat="server"  OnClick="assigned_vote_Click" Text="Vote" />
+                   
+                  
 
                     <asp:Button class="btn btn-danger" ID="logout_button" runat="server"  OnClick="logout_button_Click" Text="Logout" />
                 
@@ -78,20 +96,46 @@
            
         </table>
         </nav>
+
+         
         
-        &nbsp;<table class="auto-style1">
+        &nbsp;<center><table class="auto-style1">
            
             <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td>&nbsp;</td>
+              
+                
+                <td class="auto-style5">
+                    <div class="row">
+                        <div class="col">
+                    <div class="card" style="width: 15rem;">
+                        <img  src="assets/editprofile.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Edit Profile</h5>
+                            <asp:Button class="btn btn-primary" ID="Edit_Profile" runat="server" OnClick="Edit_Profile_Click" Text="Edit Profile" />
+                        </div>
+                    </div>
+                            </div>
+                        <div class="col">
+                     <div class="card" style="width: 15rem;">
+                        <img src="assets/vote.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Add Vote</h5>
+                            <asp:Button class="btn btn-primary" ID="assigned_vote" runat="server"  OnClick="assigned_vote_Click" Text="Vote" />
+                        </div>
+                    </div>
+                            </div>
+
+                        </div>
+                    </td>
+                       
+                
+               
             </tr>
             <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td>&nbsp;</td>
+                
+                
             </tr>
-        </table>
+        </table></center>
         <div>
         </div>
     </form>

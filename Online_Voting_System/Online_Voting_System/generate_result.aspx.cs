@@ -14,9 +14,15 @@ namespace Online_Voting_System
 
         }
 
+<<<<<<< Updated upstream
         protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
         {
 
+=======
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Admin_panel.aspx");
+>>>>>>> Stashed changes
         }
     }
 }
