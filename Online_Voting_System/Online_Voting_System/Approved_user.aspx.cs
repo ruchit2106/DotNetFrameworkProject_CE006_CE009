@@ -71,6 +71,10 @@ namespace Online_Voting_System
             Response.Redirect("Admin_panel.aspx");
         }
 
-      
+        protected void logout_Click(object sender, EventArgs e)
+        {
+            Session.RemoveAll();
+            Response.Redirect("Login.aspx");
+        }
     }
 }

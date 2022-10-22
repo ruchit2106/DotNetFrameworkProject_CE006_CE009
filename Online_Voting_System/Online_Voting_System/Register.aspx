@@ -116,10 +116,7 @@
                     <td class="auto-style4">
                         &nbsp;</td>
                     <td>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
                         <br />
                         <asp:Label class="text-danger" ID="wrong_ans" runat="server"></asp:Label>
                         <br />
@@ -128,22 +125,9 @@
                         <br />
                         <asp:Button class="btn btn-primary" ID="confirm_register" runat="server" OnClick="register_clicked" Text="Submit" Width="103px" />
                         <asp:Button class="btn btn-primary" ID="login_link" runat="server" Text="Back" Width="97px" OnClick="login_link_Click" />
-=======
-                        <asp:Button class="btn btn-danger" ID="login_link" runat="server" Text="Back" Width="74px" OnClick="login_link_Click" />
-                        <asp:Button class="btn btn-primary" ID="confirm_register" runat="server" OnClick="register_clicked" Text="Submit" />
->>>>>>> Stashed changes
-=======
-                        <asp:Button class="btn btn-danger" ID="login_link" runat="server" Text="Back" Width="74px" OnClick="login_link_Click" />
-                        <asp:Button class="btn btn-primary" ID="confirm_register" runat="server" OnClick="register_clicked" Text="Submit" />
->>>>>>> Stashed changes
-=======
-                        <asp:Button class="btn btn-danger" ID="login_link" runat="server" Text="Back" Width="74px" OnClick="login_link_Click" />
-                        <asp:Button class="btn btn-primary" ID="confirm_register" runat="server" OnClick="register_clicked" Text="Submit" />
->>>>>>> Stashed changes
-=======
-                        <asp:Button class="btn btn-danger" ID="login_link" runat="server" Text="Back" Width="74px" OnClick="login_link_Click" />
-                        <asp:Button class="btn btn-primary" ID="confirm_register" runat="server" OnClick="register_clicked" Text="Submit" />
->>>>>>> Stashed changes
+
+                      
+
                     </td>
                 </tr>
             </table></center>

@@ -16,6 +16,54 @@ namespace Online_Voting_System
         // SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Ruchit\Documents\GitHub\Online_Voting_System\Online_Voting_System\Online_Voting_System\App_Data\OnlineVotingSystem.mdf;Integrated Security=True");
         protected void Page_Load(object sender, EventArgs e)
         {
+            try
+            {
+
+                Int32 totalmale = 0;
+                Int32 totalfemale = 0;
+                Int32 totalcandidate = 0;
+                string Totalmale = "SELECT COUNT(*) FROM VOTERS WHERE Gender = @Gender";
+                string TotalFemale = "SELECT COUNT(*) FROM VOTERS WHERE Gender = @Gender";
+                string Totalcandidate = "SELECT COUNT(*) FROM CANDIDATES WHERE Gender = @Gender";
+                using (con)
+                {
+                    using (SqlCommand cmd = new SqlCommand(Totalmale))
+                    {
+                        cmd.Parameters.AddWithValue("Gender", "M");
+                        cmd.Connection = con;
+                        con.Open();
+                        totalmale = Convert.ToInt32(cmd.ExecuteScalar());
+                        con.Close();
+                        male.Text = totalmale.ToString();
+                    }
+
+                    using (SqlCommand cmd1 = new SqlCommand(TotalFemale))
+                    {
+                        cmd1.Parameters.AddWithValue("Gender", "F");
+                        cmd1.Connection = con;
+                        con.Open();
+                        totalfemale = Convert.ToInt32(cmd1.ExecuteScalar());
+                        con.Close();
+                        female.Text = totalfemale.ToString();
+                    }
+
+                    using (SqlCommand cmd2 = new SqlCommand(Totalcandidate))
+                    {
+                        cmd2.Parameters.AddWithValue("Gender", "M");
+                       
+                        cmd2.Connection = con;
+                        con.Open();
+                        totalcandidate = Convert.ToInt32(cmd2.ExecuteScalar());
+                        con.Close();
+                        candidate.Text = totalcandidate.ToString();
+                    }
+                }
+            }
+
+            catch(Exception ex)
+            {
+                Response.Write(ex.Message);
+            }
 
         }
 

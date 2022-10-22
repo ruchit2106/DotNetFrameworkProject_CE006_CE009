@@ -34,6 +34,44 @@
        {
            margin-right:250px;
        }
+
+        .col{
+            margin-top:130px;
+            padding-top:50px;
+            max-height:70%;
+        }
+
+        .card{
+
+             box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+             transition: 0.3s;
+        }
+
+        .card:hover {
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+
+        #male{
+            color:green;
+            font-size:20px;
+            font-weight:bold;
+        }
+
+        #female{
+
+             color:green;
+            font-size:20px;
+            font-weight:bold;
+
+        }
+
+         #candidate{
+
+             color:green;
+            font-size:20px;
+            font-weight:bold;
+
+        }
     </style>
 </head>
 <body>
@@ -58,6 +96,62 @@
            
         </table>
         </nav>
+
+        <center><table class="auto-style5">
+           
+            <tr>
+              
+                
+                <td class="auto-style6">
+                    <div class="row">
+                        <div class="col">
+                    <div class="card" style="width: 15rem;">
+                      
+                        <div class="card-body">
+                            <h5 class="card-title">Total Male Voters</h5>
+
+                            <asp:Label ID="male" runat="server"></asp:Label>
+                        </div>
+                    </div>
+                            
+                            </div>
+                        <div class="col">
+                     <div class="card" style="width: 15rem;">
+                      
+                        <div class="card-body">
+                            <h5 class="card-title">Total Female Voters</h5>
+                            <asp:Label ID="female" runat="server"></asp:Label>
+                        </div>
+                    </div>
+                           
+                            </div>
+
+
+                         <div class="col">
+                     <div class="card" style="width: 15rem;">
+                      
+                        <div class="card-body">
+                            <h5 class="card-title">Total Candidates</h5>
+
+                            <asp:Label ID="candidate" runat="server"></asp:Label>
+                           
+                        </div>
+                    </div>
+                             
+                            </div>
+
+
+                        </div>
+                    </td>
+                       
+                
+               
+            </tr>
+            </table></center>
+        
+
+
+            
         
     </form>
 </body>

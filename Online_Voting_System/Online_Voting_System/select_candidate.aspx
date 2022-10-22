@@ -131,6 +131,8 @@
                          <br />
                          <br />
                          <asp:Label class="fw-bolder text-danger" ID="wrong_txt" runat="server"></asp:Label>
+                         <br />
+                         <asp:Label ID="vote_success" runat="server"></asp:Label>
                     </td>
                 </tr>
             </table></center>

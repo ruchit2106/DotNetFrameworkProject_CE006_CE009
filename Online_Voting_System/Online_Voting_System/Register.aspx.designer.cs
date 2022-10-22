@@ -87,28 +87,12 @@ namespace Online_Voting_System
         protected global::System.Web.UI.WebControls.RadioButtonList gendertxt;
 
         /// <summary>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
         /// wrong_ans control.
-=======
-        /// login_link control.
->>>>>>> Stashed changes
-=======
-        /// login_link control.
->>>>>>> Stashed changes
-=======
-        /// login_link control.
->>>>>>> Stashed changes
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
         protected global::System.Web.UI.WebControls.Label wrong_ans;
 
         /// <summary>
@@ -122,50 +106,20 @@ namespace Online_Voting_System
 
         /// <summary>
         /// confirm_register control.
-=======
-        /// login_link control.
->>>>>>> Stashed changes
-=======
-        protected global::System.Web.UI.WebControls.Button login_link;
-
-        /// <summary>
-        /// confirm_register control.
->>>>>>> Stashed changes
-=======
-        protected global::System.Web.UI.WebControls.Button login_link;
-
-        /// <summary>
-        /// confirm_register control.
->>>>>>> Stashed changes
-=======
-        protected global::System.Web.UI.WebControls.Button login_link;
-
-        /// <summary>
-        /// confirm_register control.
->>>>>>> Stashed changes
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        protected global::System.Web.UI.WebControls.Button login_link;
-
-        /// <summary>
-        /// confirm_register control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         protected global::System.Web.UI.WebControls.Button confirm_register;
+
+        /// <summary>
+        /// login_link control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button login_link;
     }
 }

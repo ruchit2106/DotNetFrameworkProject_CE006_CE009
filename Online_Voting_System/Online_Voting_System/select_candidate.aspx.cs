@@ -103,7 +103,7 @@ namespace Online_Voting_System
                                 con.Open();
                                 cmd1.ExecuteNonQuery();
                                 con.Close();
-                                Response.Write("vote added to Candidate");
+                                vote_success.Text = "vote added to Candidate";
                                 //SqlDataAdapter sda = new SqlDataAdapter(cmd);
 
 
@@ -112,7 +112,7 @@ namespace Online_Voting_System
 
                         else
                         {
-                           wrong_txt.Text =  "Incorrect Candidate Name Or Password";
+                           wrong_txt.Text =  "Incorrect Candidate Name Or Candidate Partyname";
                         }
                     }
 
